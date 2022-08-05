@@ -7,6 +7,8 @@ class Human {
     char Humanplayer;
 
     public:
+
+    Human( ); // constructor
     char makeMove(); 
 };
 

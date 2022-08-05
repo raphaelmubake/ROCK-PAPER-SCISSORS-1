@@ -2,6 +2,10 @@
 #include <iostream>
 using namespace std;
 
+
+Human::Human( ){
+
+}
 char Human::makeMove(){
 
     char Humanplayer;

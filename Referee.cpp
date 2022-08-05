@@ -1,6 +1,12 @@
 #include "Referee.h"
 
 using namespace std;
+ 
+
+Referee::Referee( ) {
+
+}
+
 
 char Referee::refGame(Human Humanplayer, Computer Computerplayer){
     char Humanplayer = Humanplayer.makeMove(); 

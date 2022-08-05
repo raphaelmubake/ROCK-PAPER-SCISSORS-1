@@ -1,5 +1,8 @@
 #include "Computer.h"
 
+Computer::Computer( ){
+
+};
 
 char Computer::makeMove() {
    /* srand(time(0));
