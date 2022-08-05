@@ -1,14 +1,5 @@
 #include "Computer.h"
-#include <string>
-#include <math.h>
-#include <ctime>
 
-using namespace std;
-
-// Constant variables
-const char ROCK = 'R';
-const char PAPER = 'P';
-const char SCISSORS = 'S';
 
 char Computer::makeMove() {
    /* srand(time(0));

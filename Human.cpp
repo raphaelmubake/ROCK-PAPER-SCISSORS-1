@@ -1,15 +1,6 @@
 #include "Human.h"
-#include <string>
-#include <math.h>
-#include <ctime>
-
+#include <iostream>
 using namespace std;
-
-
-// Constant variables
-const char ROCK = 'R';
-const char PAPER = 'P';
-const char SCISSORS = 'S';
 
 char Human::makeMove(){
 

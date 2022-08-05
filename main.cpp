@@ -1,16 +1,7 @@
 #include "Human.h"
 #include "Computer.h"
 #include "Referee.h"
-#include <string>
-#include <math.h>
-#include <ctime>
-
-using namespace std;
-
-// Constant variables
-const char ROCK = 'R';
-const char PAPER = 'P';
-const char SCISSORS = 'S'; 
+#include <iostream>
 
 int main() {
     //User's choice
@@ -31,7 +22,7 @@ int main() {
     Human player1;
     Computer player2;
     Referee r;
-    cout<<r.refGame(player1,player2)<<endl;
+    std::cout<<r.refGame(player1,player2)<<std::endl;
  
     return 0;
 }

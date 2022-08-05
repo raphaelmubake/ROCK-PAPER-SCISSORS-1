@@ -1,16 +1,6 @@
-referee.cpp
 #include "Referee.h"
-#include <string>
-#include <math.h>
-#include <ctime>
 
 using namespace std;
- 
-//  change is made
-// Constant variables
-const char ROCK = 'R';
-const char PAPER = 'P';
-const char SCISSORS = 'S';
 
 char Referee:: refGame(Human Humanplayer, Computer Computerplayer){
     char Humanplayer = Humanplayer.makeMove(); 
@@ -28,6 +18,6 @@ char Referee:: refGame(Human Humanplayer, Computer Computerplayer){
         
     }
     else {
-        cout << "E" << endl;
+        return 'E';
     }
 }
