@@ -2,7 +2,7 @@
 
 using namespace std;
 
-char Referee:: refGame(Human Humanplayer, Computer Computerplayer){
+char Referee::refGame(Human Humanplayer, Computer Computerplayer){
     char Humanplayer = Humanplayer.makeMove(); 
     char Computerplayer = Computerplayer.makeMove(); 
 
