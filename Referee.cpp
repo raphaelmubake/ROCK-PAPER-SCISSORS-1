@@ -9,17 +9,17 @@ Referee::Referee( ) {
 
 
 char Referee::refGame(Human Humanplayer, Computer Computerplayer){
-    char Humanplayer = Humanplayer.makeMove(); 
-    char Computerplayer = Computerplayer.makeMove(); 
+    char Humanmove = Humanplayer.makeMove(); 
+    char Computermove = Computerplayer.makeMove(); 
 
-    if (Humanplayer == 'R' && Computerplayer == 'R') {
+    if (Humanmove == 'R' && Computermove == 'R') {
         return 'T';
     }
-    else if (Humanplayer == "P" && Computerplayer == 'R') {
+    else if (Humanmove == 'P' && Computermove == 'R') {
         return 'W';
         
     }
-    else if (Humanplayer == 'S' && Computerplayer == 'R') {
+    else if (Humanmove == 'S' && Computermove == 'R') {
         return 'L';
         
     }
